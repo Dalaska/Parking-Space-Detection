@@ -1,6 +1,8 @@
 ##Files below will not commit##
 *.mp4
+*.bmp
+*.mat 
 
 .vscode
 .ipynb_checkpoints
-ForMarkingPoints/
+data/

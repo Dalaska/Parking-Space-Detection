@@ -25,4 +25,5 @@ df = pd.read_csv('marks.csv')
 points = df.values
 for i in range(len(points)):
     center = np.round(points[i])
+
 pass
