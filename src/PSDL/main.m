@@ -51,8 +51,8 @@ for index = 1:length(testFiles)
        
         figure;
         imshow(imgWithSlotsDrawn,[]);
-        print(['results\' currentFileName], '-dbmp');
-        close all;
+%        print(['results\' currentFileName], '-dbmp');
+%        close all;
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 end
 save('detectResults.mat','detectResults');
